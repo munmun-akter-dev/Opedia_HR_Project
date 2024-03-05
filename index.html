@@ -106,9 +106,9 @@
 
     <!----------------- HERO SECTION START----------- -->
 
-    <section class="hero bg_purple">
+    <section class="hero bg_purple" style="overflow-x: hidden; ">
         <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row ">
                 <div class="col-lg-6">
                     <div class="hero_left_side">
 
@@ -145,18 +145,21 @@
 
                         </div>
 
-                        <div class="hero_left_btn_group d-flex  ">
+                        <div class="hero_left_btn_group d-flex  align-items-center ">
 
 
 
+                      
                             <button class="btn_secondary">
                                 <a href="./service.html"><span class="btn_white_text">Get a Demo</span></a>
                             </button>
-                            <img class="img-fluid" src="./assets/images/hero_circle_play_img.png" alt="">
+                          
 
-                            <h5>How We Work</h5>
+                           <img class="img-fluid" src="./assets/images/hero_circle_play_img.png" alt="">
 
-                            <div>
+                           <h5 >How We Work</h5>
+
+                            <div class="svg_img d-none d-lg-block">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"
                                     fill="none">
                                     <path
@@ -182,8 +185,8 @@
 
 
                         <div class="small_pics position-absolute">
-                            <img class=" small_left_pic img-fluid" src="./assets/images/hero_lsmall_img.png" alt="">
-                            <img class=" small_right_pic img-fluid" src="./assets/images/hero_rsmall_img.png" alt="">
+                            <img class=" small_left_pic img-fluid d-none d-lg-block" src="./assets/images/hero_lsmall_img.png" alt="">
+                            <img class=" small_right_pic img-fluid d-none d-lg-block" src="./assets/images/hero_rsmall_img.png" alt="">
                         </div>
 
                     </div>
@@ -206,8 +209,10 @@
                 <div class="trusted_parent">
                     <h3>Trusted by <span class="thirty_black">30,000+</span> Companies of All Sizes</h3>
 
-                    <div class="trusted_img_group d-flex justify-content-center align-items-center">
+                    <div class="trusted_img_group  ">
                         <img class="img-fluid" src="./assets/images/trust_pic1.png" alt="">
+                   
+
                         <img class="img-fluid" src="./assets/images/trust_pic2.png" alt="">
                         <img class="img-fluid" src="./assets/images/trust_pic3.png" alt="">
                         <img class="img-fluid" src="./assets/images/trust_pic4.png" alt="">
@@ -215,6 +220,10 @@
                         <img class="img-fluid" src="./assets/images/trust_pic6.png" alt="">
 
                     </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -225,7 +234,7 @@
 
     <!-- -------------CONSULTING SECTION START------------------ -->
 
-    <section class="consulting bg_white">
+    <section class="consulting bg_white" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row">
                 <div class="consulting_parent">
@@ -243,7 +252,7 @@
 
                     <div class="col-lg-6">
                         <div class="col_left_side">
-                            <img src="./assets/images/consulting_left_pic.png" alt="">
+                            <img class="img-fluid" src="./assets/images/consulting_left_pic.png" alt="">
 
                         </div>
                     </div>
@@ -312,7 +321,7 @@
 
 
 
-    <section class="combine bg_off_white">
+    <section class="combine bg_off_white" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -418,17 +427,7 @@
                                     </div>
 
 
-
                                 </div>
-
-
-
-
-
-
-
-
-
 
                             </ul>
 
@@ -468,8 +467,6 @@
                                 </div>
 
 
-
-                        
                             </ul>
                         </div>
 
@@ -480,7 +477,7 @@
 
                 <div class="col-lg-6">
                     <div class="combine_right_side">
-                        <img src="./assets/images/combine_right_pic.png" alt="">
+                        <img class="img-fluid" src="./assets/images/combine_right_pic.png" alt="">
 
                     </div>
                 </div>
@@ -495,7 +492,7 @@
 
     <!-- CONTACT SECTION START -->
 
-    <section class="contact">
+    <section class="contact" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -507,16 +504,24 @@
                             challenges.</h4>
 
 
-                        <div class="connect_items">
-                            <li class=" connect_items d-flex">
-                                <img src="./assets/images/mail.png" alt="">
+                        <div class="connect_items_parent">
+                            <li class=" connect_items d-flex ">
+                                <!-- <img src="./assets/images/mail.png" alt=""> -->
+                                <!-- <img class="img-fluid" src="./assets/images/mail_box.png" alt=""> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                    <path d="M18.3332 5.49967C18.3332 4.58301 17.5832 3.83301 16.6665 3.83301H3.33317C2.4165 3.83301 1.6665 4.58301 1.6665 5.49967V15.4997C1.6665 16.4163 2.4165 17.1663 3.33317 17.1663H16.6665C17.5832 17.1663 18.3332 16.4163 18.3332 15.4997V5.49967ZM16.6665 5.49967L9.99984 9.66634L3.33317 5.49967H16.6665ZM16.6665 15.4997H3.33317V7.16634L9.99984 11.333L16.6665 7.16634V15.4997Z" fill="#7275FF"/>
+                                  </svg>
 
                                 <h6>example@gmail.com</h6>
 
                             </li>
 
                             <li class=" connect_items d-flex ">
-                                <img src="./assets/images/phn.png" alt="">
+                                <!-- <img src="./assets/images/phn.png" alt=""> -->
+                                <!-- <img class="img-fluid" src="./assets/images/phn_icon.png" alt=""> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                    <path d="M6.987 2.56617L6.27 2.78217C5.63158 2.9747 5.06144 3.3456 4.62669 3.85121C4.19194 4.35682 3.91068 4.97611 3.816 5.63617C3.519 7.70417 4.183 10.1222 5.784 12.8952C7.381 15.6612 9.139 17.4432 11.074 18.2232C11.6957 18.4737 12.3763 18.5405 13.0349 18.4155C13.6935 18.2906 14.3023 17.9791 14.789 17.5182L15.331 17.0042C15.6829 16.6711 15.902 16.2215 15.9474 15.7391C15.9929 15.2566 15.8616 14.7741 15.578 14.3812L14.222 12.5012C14.0387 12.2474 13.7805 12.0573 13.4837 11.9576C13.1869 11.8579 12.8664 11.8535 12.567 11.9452L10.516 12.5722L10.463 12.5822C10.237 12.6152 9.715 12.1262 9.065 11.0002C8.385 9.82217 8.245 9.13317 8.432 8.95517L9.475 7.98217C9.85641 7.62663 10.117 7.16061 10.2201 6.64949C10.3232 6.13836 10.2637 5.60778 10.05 5.13217L9.388 3.66117C9.18894 3.21851 8.8357 2.86335 8.39413 2.66188C7.95256 2.46042 7.4518 2.4264 6.987 2.56617ZM8.478 4.07117L9.138 5.54217C9.26654 5.8274 9.30248 6.14574 9.24078 6.45245C9.17908 6.75916 9.02283 7.03883 8.794 7.25217L7.748 8.22617C7.078 8.86017 7.3 9.94217 8.2 11.5002C9.046 12.9662 9.818 13.6902 10.648 13.5642L10.772 13.5382L12.86 12.9012C12.9598 12.8705 13.0667 12.8719 13.1657 12.905C13.2647 12.9382 13.3508 13.0016 13.412 13.0862L14.768 14.9662C14.91 15.1626 14.9758 15.404 14.9532 15.6453C14.9305 15.8866 14.821 16.1115 14.645 16.2782L14.102 16.7922C13.7543 17.1212 13.3195 17.3435 12.8493 17.4327C12.379 17.5218 11.893 17.4741 11.449 17.2952C9.751 16.6112 8.146 14.9842 6.651 12.3952C5.152 9.80017 4.545 7.59317 4.806 5.77817C4.87356 5.3066 5.07445 4.86415 5.38502 4.50292C5.69559 4.14168 6.1029 3.8767 6.559 3.73917L7.276 3.52317C7.50846 3.45332 7.75839 3.4704 7.97918 3.57123C8.19997 3.67206 8.37656 3.84975 8.476 4.07117" fill="#7275FF"/>
+                                  </svg>
                                 <h6>+154521695401</h6>
                             </li>
 
@@ -538,15 +543,27 @@
                 <div class="col-lg-6">
                     <div class="contact_right_side">
 
-                        <div class="double_box">
+                        <div class="double_box d-none d-lg-block">
                             <input id="connect_child_content" type="text" placeholder="First name*">
                             <input id="connect_child_content" type="text" placeholder="First name*">
 
                         </div>
 
+                        <div class="single_boxes d-lg-none d-sm-block">
+                            <input id="connect_child_content" type="text" placeholder="First Name*">
+
+
+                        </div>
+
+                        <div class="single_boxes d-lg-none d-sm-block">
+                            <input id="connect_child_content" type="text" placeholder="Last Name*">
+
+
+                        </div>
+
+
                         <div class="single_boxes">
                             <input id="connect_child_content" type="text" placeholder="Business Email*">
-
 
 
                         </div>
@@ -575,11 +592,11 @@
 
                         <p class="contact_content">
                             Kion needs the contact information you provide to us to contact you about our products and
-                            <br class="d-flex d-lg-block">
+                            <br class="d-none d-lg-block">
                             services. You may unsubscribe from these communications at any time. For information on how
-                            to <br class="d-flex d-lg-block"> unsubscribe, as well as our privacy practices and
+                            to <br class="d-none d-lg-block"> unsubscribe, as well as our privacy practices and
                             commitment to protecting your privacy,
-                            please <br class="d-flex d-lg-block"> review our <span class="p_policy">Privacy
+                            please <br class="d-none d-lg-block"> review our <span class="p_policy">Privacy
                                 Policy.</span>
                         </p>
 
@@ -604,7 +621,7 @@
 
 
     <!-- CUSTOMER SECTION START -->
-    <section class="customer bg_black">
+    <section class="customer bg_black" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row">
                 <div class="customer_parent">
@@ -679,7 +696,7 @@
 
     <!-- OVERALL SECTION START -->
 
-    <section class="over_all bg_white">
+    <section class="over_all bg_white" style="overflow-x: hidden; ">
         <div class="row">
             <div class="container">
                 <div class="over_all_parent">
@@ -766,13 +783,296 @@
 
 
     <!-- FAQ SECTION START -->
-    <section class="faq bg_off_white">
+    <section class="faq bg_off_white" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row">
                 <div class="faq_parent">
                     <h2>FAQ</h2>
 
 
+                    <div class="list_parent">
+                        <ul class="list_group">
+
+
+                            <li class="faq_list_box">
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                What does OpediaHR do?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <strong> Does OPediaHR do payroll?</strong> OpediaHR is a comprehensive
+                                                human resources management software designed to streamline various HR
+                                                processes within an organization. It typically offers features for
+                                                employee onboarding, performance management, time tracking, leave
+                                                management, benefits administration, employee self-service, and HR
+                                                analytics. OpediaHR aims to centralize HR tasks, enhance efficiency, and
+                                                improve employee engagement and satisfaction.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </li>
+
+                        </ul>
+
+                        <ul class="list_group">
+                            <li class="faq_list_box">
+
+
+
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                Does OPediaHR do payroll?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                <strong> Does OPediaHR do payroll?</strong> OPediaHR does not directly
+                                                handle payroll. It is an HR management software focused on tasks like
+                                                employee onboarding, performance management, time tracking, and HR
+                                                analytics. However, it may integrate with payroll systems or provide
+                                                features to facilitate payroll processing, such as timekeeping and
+                                                attendance tracking.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </li>
+
+
+
+
+                        </ul>
+
+
+
+                        <ul class="list_group">
+                            <li class="faq_list_box">
+
+
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                How much does BambooHR cost?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                <strong> How much does BambooHR cost?</strong>BambooHR pricing varies
+                                                depending on the number of employees and the specific features required
+                                                by the organization. It typically offers a subscription-based model with
+                                                pricing tiers that scale with the size of the company. Additionally,
+                                                BambooHR may offer add-on modules for additional functionality, which
+                                                can affect the overall cost. For specific pricing information, it's best
+                                                to visit BambooHR's website or contact their sales team directly.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+                            </li>
+
+
+                        </ul>
+
+
+
+                        <ul class="list_group">
+                            <li class="faq_list_box">
+
+
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingFour">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseFour">
+                                                Is your support team outsourced?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingFour">
+                                            <div class="accordion-body">
+                                                <strong> Is your support team outsourced?</strong>As an AI developed by
+                                                OpenAI, I don't have a support team in the traditional sense. However,
+                                                OpenAI may have its own support team for addressing inquiries and
+                                                providing assistance to users, but I don't have information on whether
+                                                they outsource this function.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </li>
+
+
+                        </ul>
+
+
+
+
+                        <ul class="list_group">
+                            <li class="faq_list_box">
+
+
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingFive">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseFour">
+                                                Is OPediaHR a PEO?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingFive">
+                                            <div class="accordion-body">
+                                                <strong> Is OPediaHR a PEO?</strong>No, OPediaHR is not a professional
+                                                employer organization (PEO). It's a human resources management software
+                                                designed to streamline HR processes within organizations. While PEOs
+                                                also offer HR services, they typically handle tasks like payroll,
+                                                benefits administration, and compliance on behalf of client companies,
+                                                acting as co-employers for their employees. OPediaHR focuses more on
+                                                internal HR management rather than outsourcing HR functions to a third
+                                                party like a PEO.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+
+                            </li>
+
+
+                        </ul>
+
+
+
+
+
+
+
+
+                        <ul class="list_group">
+                            <li class="faq_list_box">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="panelsStayOpen-headingSix">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseSix">
+                                                Where's my data housed? How secure is OPediaHR?
+
+
+
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingSix">
+                                            <div class="accordion-body">
+                                                <strong> Where's my data housed? How secure is
+                                                    OPediaHR?</strong>OPediaHR typically houses data on secure cloud
+                                                servers, ensuring accessibility and protection. Its security measures
+                                                often include encryption, regular backups, access controls, and
+                                                compliance with industry standards such as GDPR and HIPAA. Additionally,
+                                                OPediaHR may offer features like user authentication and audit trails to
+                                                enhance data security further.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+
+                            </li>
+
+
+                        </ul>
+
+
+
+
+                      
+
+
+
+                    </div>
+
+<!-- 
                     <div class="faq_list_parent">
                         <ul class="faq_list_group">
 
@@ -910,10 +1210,6 @@
 
 
                                 </div>
-
-
-
-
 
 
 
@@ -1074,7 +1370,7 @@
 
                         </ul>
 
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
@@ -1087,10 +1383,12 @@
 
     <!-- RUSH SECTION START -->
 
-    <section class="rush bg_white">
+    <section class="rush bg_white" style="overflow-x: hidden; ">
         <div class="container">
-            <div class="row">
-                <div class="rush_box">
+            <div class="row rush_box  ">
+
+                <div class="col-lg-6">
+
                     <div class="rust_left_content">
                         <h2>
                             In a rush? Try <br class="d-none d-lg-block"> BambooHR now!
@@ -1102,16 +1400,19 @@
                         </div>
                     </div>
 
-                    <div>
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="rush_right_content">
                         <img src="./assets/images/rush_right_pic.png" alt="">
                     </div>
 
-
                 </div>
 
-            </div>
 
-
+               </div>
 
         </div>
 
@@ -1121,18 +1422,18 @@
     <!-- /* TOOLS SECTION START */ -->
 
 
-    <section class="tools bg_white">
+    <section class="tools bg_white" style="overflow-x: hidden; ">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="tools_left_side">
                         <div class="tools_img_group d-flex ">
-                            <img class="img-fluid" src="./assets/images/netsel.png" alt="">
+                            <img class="img-fluid " src="./assets/images/netsel.png" alt="">
                             <img class="img-fluid" src="./assets/images/google.png" alt="">
                             <img class="img-fluid" src="./assets/images/slack.png " alt="">
                             <img class="img-fluid" src="./assets/images/netsel.png" alt="">
-                            <img class="img-fluid" src="./assets/images/slack.png " alt="">
-                            <img class="img-fluid" src="./assets/images/google.png" alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/slack.png " alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/google.png" alt="">
 
 
                         </div>
@@ -1144,16 +1445,16 @@
 
                             <img class="img-fluid" src="./assets/images/google.png" alt="">
 
-                            <img class="img-fluid" src="./assets/images/netsel.png" alt="">
-                            <img class="img-fluid" src="./assets/images/slack.png " alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/netsel.png" alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/slack.png " alt="">
                         </div>
                         <div class="tools_img_group d-flex pt-3 ">
                             <img class="img-fluid" src="./assets/images/t1.png" alt="">
                             <img class="img-fluid" src="./assets/images/t2.png" alt="">
                             <img class="img-fluid" src="./assets/images/t3.png" alt="">
                             <img class="img-fluid" src="./assets/images/t4.png" alt="">
-                            <img class="img-fluid" src="./assets/images/slack.png " alt="">
-                            <img class="img-fluid" src="./assets/images/t6.png" alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/slack.png " alt="">
+                            <img class="img-fluid d-none d-lg-block" src="./assets/images/t6.png" alt="">
 
                         </div>
 
@@ -1187,18 +1488,75 @@
     <!-- /* TOOLS SECTION END */ -->
 
     <!-- /* FOOTER SECTION START */ -->
-    <section class="footer bg_black">
+    <section class="footer bg_black" style="overflow-x: hidden; ">
         <div class="footer_wrapper">
             <div class="container">
                 <div class="row ">
-                    <div class="col-lg-5">
+                    <div class="col-lg-4">
                         <div class="footer_left_side">
                             <h5>Opedia <span class="sky_blue">HR</span></h5>
                             <p>The payments platform designed to put <br class="d-none d-lg-block"> merchants first</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-7">
+
+                    <div class="col-lg-2 ">
+
+                        <div class="footer_items">
+                            <h3>
+                                Company
+
+                            </h3>
+                            <ul>
+                                <li><a href="./about_us.html">About Us</a></li>
+                                <li><a href="./consultancy.html"> Careers</a></li>
+                                <li><a href="./brand_protection.html"> Why OpediaHR</a></li>
+                                <li><a href="./our_product.html"> Blog</a></li>
+                                <li><a href="./our_product.html"> Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        </div>
+
+
+
+                        <div class="col-lg-2 ">
+
+                            <div class="footer_items ">
+                                <h3>
+                                    Support
+
+                                </h3>
+                                <ul>
+                                    <li><a href="./about_us.html"> Resources</a></li>
+                                    <li><a href="./consultancy.html"> Webinars</a></li>
+                                    <li><a href="./brand_protection.html"> Services</a></li>
+                                    <li><a href="./our_product.html"> FAQ</a></li>
+                                    <li><a href="./our_product.html"> Partner with us</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2 ">
+
+                            <div class="footer_items ">
+                                <h3>
+                                    Compare OpediaHR
+
+                                </h3>
+                                <ul>
+                                    <li><a href="./about_us.html"> vs ADP</a></li>
+                                    <li><a href="./consultancy.html"> vs HiBob</a></li>
+                                    <li><a href="./brand_protection.html"> vs Paylocity</a></li>
+                                    <li><a href="./our_product.html"> vs Zenefits</a></li>
+                                    <li><a href="./our_product.html"> vs Gusto</a></li>
+                                </ul>
+                            </div>
+                  </div>
+
+                    <!-- <div class="col-lg-7">
 
                         <div class="footer_right_side d-flex">
                             <div class="footer_items">
@@ -1214,6 +1572,9 @@
                                     <li><a href="./our_product.html"> Contact us</a></li>
                                 </ul>
                             </div>
+
+
+
 
                             <div class="footer_items">
                                 <h3>
@@ -1245,18 +1606,19 @@
                                 </ul>
                             </div>
 
-
-
-
                         </div>
 
-
-                    </div>
-
-
-
+                    </div> -->
+                </div>
 
                 </div>
+
+
+
+
+
+
+
 
 
                 <div class="row">
@@ -1269,9 +1631,7 @@
                                     <li>Privacy Policy</li>
                                 </ul>
 
-
                             </div>
-
                             <div class="line_right">
                                 <ul class="line_child">
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1315,28 +1675,21 @@
 
                             </div>
 
-
                         </div>
-
-
-
 
                     </div>
 
-
-
-                    <p class="bottom_pera">Do not sell or share my personals information</p>
+                    <div class=" bottom_parent d-flex">
+                        <p class="bottom_pera">Do not sell or share my personals information</p>
+                        <img class="img-fluid d-none d-lg-block" src="./assets/images/footer_right_img.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
 
-
     <!-- /* FOOTER SECTION END */ -->
-
-
-
 
 </head>
 

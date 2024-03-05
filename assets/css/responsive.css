@@ -1,0 +1,449 @@
+@media screen and (max-width: 425px) {
+  .nav-item a {
+    font-size: 12px;
+  }
+
+  .right_list {
+    gap: 3px;
+
+    font-size: 12px;
+  }
+
+  .cnt {
+    font-size: 12px;
+  }
+
+  .blck_log {
+    font-size: 13px;
+  }
+
+  .btn_secondary {
+    padding: 3px 30px;
+  }
+
+  .btn_white {
+    padding: 3px 20px;
+  }
+
+  .btn_black {
+    padding: 3px 20px;
+  }
+
+  .btn_white_text {
+    font-size: 12px;
+  }
+
+  .btn_black_text {
+    font-size: 12px;
+  }
+
+  .left_list {
+    padding-right: 2px;
+    gap: 4px;
+    color: var(--Extra-P1, #7275ff);
+    font-family: Muli;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+  }
+
+  .hero_left_side {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .hero_head {
+    font-size: 35px;
+  }
+
+  .black_head {
+    padding-top: 30px;
+    font-size: 30px;
+
+    line-height: 118%;
+  }
+
+  .hero_left_side h5 {
+    padding-bottom: 8px;
+  }
+
+  .hero_left_btn_group button {
+    height: 46px;
+  }
+
+  .hero_left_btn_group {
+    padding-top: 10px;
+  }
+
+  .hero_left_btn_group img {
+    padding-left: 7px;
+    padding-top: 10px;
+  }
+
+  .hero_left_btn_group h5 {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .big_pic.position-relative {
+    padding-top: 30px;
+  }
+
+  .hero_left_btn_group img {
+    width: 17%;
+  }
+
+  .trusted {
+    padding-bottom: 30px;
+  }
+
+  .consulting {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .consulting_parent h2 {
+    padding-top: 5;
+    font-size: 32px;
+  }
+
+  .purple_service {
+    font-size: 24px;
+  }
+
+  .col_left_side {
+    padding-bottom: 20px;
+  }
+
+  .col_right_side {
+    padding-top: 30px;
+  }
+
+  .right_content {
+    font-size: 14px;
+
+    padding-left: 20px;
+  }
+
+  .right_content_with_img {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .combine {
+    padding-top: 30px;
+    padding-bottom: 34px;
+  }
+
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .single_boxes input {
+    width: 100%;
+  }
+
+  .single_boxes textarea {
+    width: auto;
+  }
+
+  .contact_content {
+    font-size: 13px;
+  }
+
+  .contact_left_box h3 {
+    padding-left: 13px;
+    font-size: 32px;
+  }
+
+  .contact_left_box h4 {
+    font-size: 11px;
+
+    line-height: 20px;
+  }
+
+  .connect_items h6 {
+    font-size: 13px;
+  }
+
+  .lrn_more {
+    font-size: 12px;
+  }
+
+  .connect_items h5 {
+    padding-left: 20px;
+  }
+
+  .contact_left_box h5 {
+    font-size: 10px;
+  }
+
+  .connect_items svg {
+    width: 9%;
+  }
+
+  .connect_items h6 {
+    padding-top: 0px;
+  }
+
+  .contact_left_box h5 {
+    padding-top: 10px;
+  }
+
+  .connect_items h6 {
+    padding-left: 10px;
+  }
+
+  .bottom {
+    width: 50%;
+  }
+
+  .faq_parent h2 {
+    font-size: 35px;
+  }
+
+  .contact_left_box {
+    padding: 39px;
+    height: auto;
+  }
+
+  .customer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .customer_parent h2 {
+    font-size: 20px;
+    line-height: 114%;
+  }
+
+  .customer_content_group {
+    padding-top: 20px;
+
+    gap: 10px;
+  }
+
+  .customer_content_child h5 {
+    font-size: 12px;
+  }
+
+  .customer_btns {
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .over_all {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+  }
+  .faq_parent {
+    padding: 10px;
+  }
+  .over_all_parent p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .over_all_parent h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    padding: 46px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .faq_list_group li {
+    width: auto;
+  }
+
+  .rush {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .rust_left_content h2 {
+    font-size: 24px;
+  }
+  .rush_btn {
+    padding-top: 20px;
+  }
+
+  .rush_box {
+    padding: 40px;
+  }
+
+  .rush_right_content {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .tools {
+    padding-bottom: 30px;
+  }
+
+  .tools_right_side {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .tools_btn {
+    padding-top: 24px;
+  }
+
+  /* .tools_img_group {
+    gap: 17px;
+    padding: 20px;
+  } */
+
+  .tools_right_side h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+
+  .footer_left_side {
+    padding-bottom: 50px;
+  }
+
+  .footer_left_side h5 {
+    padding-top: 30px;
+
+    font-size: 30px;
+  }
+
+  .single_boxes textarea {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .footer_left_side h5 {
+    padding-top: 20px;
+
+    padding-right: 200px;
+  }
+
+  .footer_left_side p {
+    font-size: 14px;
+    padding-left: 24px;
+  }
+
+  .footer_items {
+    padding-top: 2px;
+
+    padding-left: 24px;
+  }
+
+  .footer_items h3 {
+    font-size: 18px;
+
+    line-height: 22px;
+  }
+
+  .footer_items li a {
+    font-size: 13px;
+
+    gap: 5px;
+  }
+
+  .bottom_pera {
+    padding-top: 10px;
+
+    font-size: 12px;
+
+    padding-left: 10px;
+  }
+
+  .line {
+    padding-left: 10px;
+  }
+
+  .line_child {
+    display: flex;
+    gap: 10px;
+    padding-left: 12px;
+  }
+
+  .line_child li {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .line {
+    padding: 0px;
+  }
+
+  .line_content {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .line_right {
+    padding-right: 20px;
+  }
+  .hero_left_side {
+    padding-bottom: 25px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .combine_left_side {
+    padding-left: 30px;
+  }
+
+  .combine_left_side h2 {
+    font-size: 24px;
+  }
+
+  .list_parent {
+    padding-top: 30px;
+  }
+
+  .tools_img_group {
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer_left_side h5 {
+    padding-right: 150px;
+  }
+  .heading_content h5 {
+    font-size: 16px;
+  }
+
+  .consulting_parent h2 {
+    font-size: 24px;
+  }
+
+  .consulting {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .combine_left_side h2 {
+    font-size: 24px;
+  }
+}
