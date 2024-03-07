@@ -137,7 +137,8 @@ p {
 
 .btn_primary {
     display: flex;
-    padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 40px);
+    padding: 8px 40px;
+    /* padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 40px); */
     justify-content: center;
     align-items: center;
     gap: var(--Spacing-2-5, 10px);
@@ -162,7 +163,7 @@ p {
 
 .btn_white {
     display: flex;
-    padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 40px);
+    padding: 8px 40px;
     justify-content: center;
     align-items: center;
     gap: var(--Spacing-2-5, 10px);
@@ -179,14 +180,39 @@ p {
     align-items: center;
     gap: var(--Spacing-2-5, 10px);
     border-radius: var(--Spacing-20, 80px);
+    border: none;
     
     /* box-shadow: 0px 6px 18px 0px rgba(10, 173, 235, 0.25); */
     background: black;
 }
 
+.btn_black_with_border{
+    display: flex;
+    padding: 8px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Spacing-2-5, 10px);
+    border-radius: var(--Spacing-20, 80px);
+border: 1px solid var(--More-Color-White, #FFF);
+background: black;
+
+}
+
 
 
 /* ......common css end........ */
+
+
+/* .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+} */
 
 .left_list {
     padding-right: 110px;
@@ -469,7 +495,6 @@ a {
 
 
 .small_left_pic {
-
     right: 155px;
     margin-top: -1175px;
 }
@@ -542,6 +567,22 @@ a {
 
 /* <!-- -------------CONSULTING SECTION START------------------ --> */
 
+.content_list li{
+    padding-top: 30px;
+}
+
+.content_list img{
+
+    display: flex;
+padding: var(--Spacing-5, 20px);
+align-items: flex-start;
+gap: var(--Spacing-2-5, 10px);
+
+border-radius: var(--Spacing-20, 80px);
+background: #FFF;
+box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.09);
+}
+
 .consulting {
     padding-top: 120px;
 }
@@ -608,7 +649,7 @@ a {
     font-weight: 500;
     line-height: 28px;
     /* 155.556% */
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 .right_content_with_img {
@@ -628,7 +669,8 @@ a {
 }
 
 .heading_content {
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
 }
 
 .heading_content h5 {
@@ -662,16 +704,55 @@ a {
 
 
 /*---------------------------- COMBINE SECTION START------------- */
-.accordion-button::after {
+
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+
+
+/* text-2xl/font-bold */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+
+
+
+
+
+
+ .accordion-button::after {
   
     background-image: url(../images/plus.png);
 
-    
+} 
 
-}
+
+
+
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/minus.png)
+    background-image: url(../images/minus.png);
 }
+
+/* Icon for expanded state */
+.accordion-button.collapsed::after {
+    background-image: url(../images/plus.png);
+}
+
+
+/* .accordion-button:not(.collapsed)::after {
+   background-image: url(../images/minus.png);
+    transform: rotate(-180deg);
+} */
+
+
+
+
+
 
 .accordion-item:last-of-type .accordion-button.collapsed {
     color: var(--Text-Color-Heading, #0C121D);
@@ -882,7 +963,7 @@ height: 12%;
 }
 
 .double_box input {
-    width: 329px;
+    width: 338px;
 
     padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px);
 
@@ -893,6 +974,7 @@ height: 12%;
 }
 
 .double_box {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -905,7 +987,7 @@ height: 12%;
 
 .single_boxes input {
 
-    width: 678px;
+    width: 100%;
     padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px);
 
 
@@ -925,7 +1007,7 @@ height: 12%;
     font-weight: 400;
     line-height: 28px;
     /* 155.556% */
-    width: 678px;
+    width: 100%;
     display: flex;
     height: 125px;
     padding: var(--Spacing-3-5, 14px) var(--Spacing-5, 20px);
@@ -1034,7 +1116,7 @@ height: 12%;
 .over_all {
     text-align: center;
     padding-top: 130px;
-    padding-bottom: 122px;
+    padding-bottom: 112px;
 }
 
 .over_all_parent h4 {
@@ -1085,6 +1167,12 @@ height: 12%;
 
 
 /* <!-- FAQ SECTION START --> */
+/* 
+.accordion-button:not(.collapsed) {
+    color: #7275FF;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+} */
 
 .accordion-button {
    
@@ -1203,7 +1291,7 @@ height: 12%;
 
 .tools_img_group {
     /* justify-content: space-evenly; */
-    gap: 10px;
+    gap: 25px;
 }
 
 
@@ -1212,8 +1300,8 @@ height: 12%;
 
 
 
-    width: 80px;
-    height: 80px;
+width: 93px;
+height: 90px;
     border-radius: var(--Spacing-20, 80px);
     background: url(<path-to-image>), lightgray 14.303px 31.105px / 74.227% 41.787% no-repeat, #FFF;
     box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.09);
