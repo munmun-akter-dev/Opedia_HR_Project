@@ -1,9 +1,20 @@
 @media screen and (max-width: 1024px) {
+  .bottom {
+    border-bottom: 1px solid #707D8E;
+    width: 100%;
+    max-width: 51%;
+    font-size: 16px !important;
+  }
 
-  .hero_left_btn_group button {
+  div#accordionExample {
+    padding: 10px;
+  }
+
+  /* .hero_left_btn_group button {
     width: 34% !important;
- 
-}
+
+  } */
+
   .left_list {
     padding-right: 0px;
     gap: 2px;
@@ -14,19 +25,27 @@
   }
 
   .contact_left_box {
-    height: 100%;
+    padding: 50px;
+    height: 938px;
+
   }
+
+  /* .contact_left_box {
+    height: 100%;
+  } */
+
   .connect_items svg {
- 
+
     width: 9%;
- 
-}
 
-.connect_items h6 {
+  }
 
-  padding-top: 0px;
+  .connect_items h6 {
 
-}
+    padding-top: 0px;
+
+  }
+
   .contact_left_box h5 {
     font-size: 11px;
   }
@@ -48,11 +67,13 @@
   .nav-item a {
     font-size: 11px;
   }
+
   .trusted_img_group img {
     /* width: 100% !important; */
     height: 80px !important;
-   
-}
+
+  }
+
   .right_list {
     gap: 5px;
 
@@ -60,7 +81,7 @@
   }
 
   .navbar-expand-md .navbar-collapse {
-    padding: 26px 0px 0px 0px;
+    /* padding: 26px 0px 0px 0px; */
   }
 
   .small_right_pic {
@@ -119,7 +140,7 @@
   .right_content_with_img {
 
     font-size: 13px;
- 
+
   }
 
   .combine {
@@ -196,8 +217,22 @@
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    padding-right: 100px;
+    /* padding-right: 130px; */
+    display: flex;
+    justify-content: start;
+    padding-left: 16px;
   }
+
+  .footer_left_side {
+    padding-bottom: 130px;
+  }
+
+  .line_child li {
+    color: #FFF;
+    font-size: 16px;
+
+  }
+
 
   .bottom_parent {
     gap: 0px;
@@ -216,7 +251,7 @@
   }
 
   .bottom_pera {
-    padding-left: 19px;
+    padding-left: 10px;
   }
 
   .double_box input {
@@ -240,14 +275,37 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .navbar {
+    padding: 0px;
+    /* padding-bottom: 20px; */
+  }
+
   /* .trusted_img_group img {
     width: 50%;
     height: 40px;
 } */
 
+  .btn_white_text {
+    font-size: 12px;
+  }
+
+  .over_all_parent img {
+    padding-top: 0px;
+  }
+
+  .over_all_parent p {
+    padding-bottom: 0px;
+  }
+
+  .connect_items svg {
+    width: 5%;
+  }
+
   .hero_right_side {
     padding-left: 0px;
-}
+  }
+
   .trusted_img_group {
     flex-wrap: wrap;
   }
@@ -257,12 +315,11 @@
   }
 
   .nav-item a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .right_list {
     gap: 5px;
-
     font-size: 11px;
   }
 
@@ -273,16 +330,16 @@
 
   .btn_primary {
     padding: 4px 20px;
-    width: 20%;
+    /* width: 20%; */
   }
 
   .list_parent {
     padding-top: 35px;
-}
-
-  .cnt {
-    font-size: 10px;
   }
+
+  /* .cnt {
+    font-size: 10px;
+  } */
 
   .blck_log {
     font-size: 13px;
@@ -300,8 +357,9 @@
 
   .right_list {
     gap: 19px;
+    padding-top: 10px;
 
-    padding-right: 30px;
+    /* padding-right: 30px; */
   }
 
   .hero_head {
@@ -312,10 +370,15 @@
     padding-bottom: 20px;
     padding-top: 30px;
   }
+
   .cnt {
- 
-    font-size: 14px !important;
-}
+    font-size: 12px;
+  }
+
+  .bottom {
+    max-width: 30%;
+  }
+
   .hero_left_btn_group button {
     height: auto;
   }
@@ -339,7 +402,7 @@
 
   .col_right_side {
     padding-top: 20px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .combine {
@@ -372,7 +435,7 @@
   }
 
   .customer_content_child h5 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .over_all {
@@ -380,9 +443,9 @@
     padding-bottom: 50px;
   }
 
-  .over_all_parent img {
+  /* .over_all_parent img {
     padding-top: 20px;
-  }
+  } */
 
   .over_all_parent h4 {
     padding-top: 30px;
@@ -429,11 +492,11 @@
 
   .footer_left_side h5 {
     padding-top: 50px;
-    padding-right: 500px;
+    padding-right: 550px;
   }
 
   .footer_left_side p {
-    padding-left: 27px;
+    padding-left: 4px;
   }
 
   .footer_left_side {
@@ -442,7 +505,7 @@
 
   .footer_items {
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   .line {
@@ -455,12 +518,21 @@
 
   .line_child li {
     padding-top: 10px;
-
-    font-size: 12px;
+    font-size: 14px;
   }
 
+  .footer_items h3 {
+    font-size: 20px;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0;
+
+  }
+
+
   .bottom_pera {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 14px;
   }
 
@@ -473,19 +545,38 @@
   }
 
   .carousel-control-prev {
-    left: -25px ;
-}
+    left: -25px;
+  }
 
-.carousel-control-next {
-  right: -23px;
-}
+  .carousel-control-next {
+    right: -23px;
+  }
 
 }
 
 @media screen and (max-width: 425px) {
+  /* .bottom {
+    max-width: 50%;
+} */
+
+  .bottom {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    max-width: 50%;
+    font-size: 13px !important;
+  }
+
+  .submit_btn {
+    padding-top: 20px;
+  }
+
+  .hr {
+
+    font-size: 20px;
+
+  }
 
   .over_all_parent img {
-  
     height: 54px;
   }
 
@@ -613,11 +704,13 @@
     padding: 3px 30px;
     height: 40px;
   }
+
+  /* 
   .btn_primary {
     padding: 4px 20px;
- width: 30%;
+    width: 30%;
     height: 40px;
-}
+  } */
 
   .btn_white {
     padding: 3px 20px;
@@ -665,10 +758,20 @@
 
   .hero_left_side h5 {
     padding-bottom: 8px;
+    line-height: 130%;
   }
 
   .hero_left_btn_group button {
-    height: 46px;
+    /* height: 46px; */
+  }
+
+  .hero_left_side h5 {
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+
+  .star_parent {
+    padding-top: 10px;
   }
 
   .hero_left_btn_group {
@@ -681,12 +784,12 @@
   }
 
   .hero_left_btn_group h5 {
-    padding-top: 20px;
+    padding-top: 8px;
     padding-left: 15px;
   }
 
   .big_pic.position-relative {
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   .hero_left_btn_group img {
@@ -708,7 +811,7 @@
   }
 
   .purple_service {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .col_left_side {
@@ -795,9 +898,9 @@
     padding-left: 10px;
   }
 
-  .bottom {
+  /* .bottom {
     width: 50%;
-  }
+  } */
 
   .faq_parent h2 {
     font-size: 35px;
@@ -831,7 +934,7 @@
   }
 
   .customer_parent h2 {
-    font-size: 27px;
+    font-size: 24px;
     line-height: 114%;
   }
 
@@ -842,7 +945,7 @@
   }
 
   .customer_content_child h5 {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .customer_btns {
@@ -872,14 +975,24 @@
 
   .over_all_parent p {
     font-size: 16px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 
   .over_all_parent h4 {
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 12px;
-    padding: 30px 50px 30px 50px;
+    font-size: 10px;
+    /* padding: 30px 50px 30px 50px; */
+  }
+
+  .hear {
+
+    margin-bottom: 0px;
+
+  }
+
+  .over_all_parent h6 {
+    font-size: 14px;
   }
 
   body {
@@ -887,17 +1000,22 @@
   }
 
   .faq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* .faq {
     padding-top: 30px;
     padding-bottom: 30px;
-  }
+  } */
 
   .faq_list_group li {
     width: auto;
   }
 
   .rush {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
   }
 
   .rust_left_content h2 {
@@ -922,7 +1040,7 @@
   }
 
   .tools_right_side {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 20px;
   }
 
@@ -945,9 +1063,15 @@
   } */
 
   .tools_right_side h2 {
-    padding-top: 20px;
-    font-size: 30px;
+    /* padding-top: 20px; */
+    font-size: 24px;
   }
+
+  .tools_right_side h2 {
+    margin-top: 10px;
+  }
+
+
 
   .footer_left_side {
     padding-bottom: 25px;
@@ -996,7 +1120,7 @@
   .bottom_pera {
     padding-top: 10px;
     font-size: 12px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .line {
@@ -1085,15 +1209,63 @@
   .col_right_side {
     padding-bottom: 20px;
   }
+
+  .carousel-control-prev {
+    left: -10px !important;
+    top: -15% !important;
+  }
+
+  .carousel-control-next {
+    right: -5px !important;
+    top: -15% !important;
+  }
+
+  .over_all_parent img {
+    padding-top: 0px;
+  }
+
+  #scrollBtn {
+    right: 10px;
+    width: 46px;
+    height: 47px;
+  }
+
+
 }
 
 @media screen and (max-width: 375px) {
 
-  .btn_primary {
+  .pera_num {
+    margin-top: 10px;
+
+    font-size: 14px;
+
+    line-height: 20px;
+  }
+
+  .tools_right_side h2 {
+
+    margin-top: 5px;
+  }
+
+  .bottom {
+    max-width: 60%;
+  }
+
+  .hero_left_btn_group button {
+    height: 34px;
+  }
+
+  .btn_white_text {
+    font-size: 10px;
+  }
+
+  /* .btn_primary {
     padding: 4px 20px;
     width: 34%;
     height: 40px;
-}
+  } */
+
   .right_list {
     gap: 10px;
     padding-right: 0px;
@@ -1104,7 +1276,8 @@
   }
 
   .footer_left_side h5 {
-    padding-right: 150px;
+    padding-right: 176px;
+
   }
 
   .heading_content h5 {
