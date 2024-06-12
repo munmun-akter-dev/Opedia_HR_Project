@@ -522,7 +522,7 @@ a {
 .small_right_pic {
     left: 226px;
     margin-top: -442px;
-    width: 35%;
+    width: 32%;
 }
 
 
@@ -682,6 +682,7 @@ a {
     line-height: 28px;
     /* 155.556% */
     /* padding-left: 50px; */
+    margin-top: 38px;
 }
 
 .right_content_with_img {
@@ -1638,7 +1639,10 @@ background: #FFF; */
     border-radius: 50px;
 }
 
+.carousel-control-prev:hover {
+    opacity: .5;
+}
 
-.carousel-control-prev.svg:hover {
-    color: transparent;
+.carousel-control-next:hover {
+    opacity: .5;
 }
