@@ -66,6 +66,13 @@ img {
     vertical-align: middle;
 }
 
+input:focus-visible {
+    outline: none !important;
+}
+
+textarea:focus-visible {
+    outline: none !important;
+}
 
 h1 {
     font-size: 3.2rem
@@ -756,10 +763,8 @@ a {
 
 
 .accordion-button:focus {
-
     box-shadow: unset !important;
 }
-
 
 
 .accordion-button::after {
