@@ -755,7 +755,10 @@ a {
 }
 
 
+.accordion-button:focus {
 
+    box-shadow: unset !important;
+}
 
 
 
