@@ -43,8 +43,6 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 15px;
-
-
 }
 
 h1,
@@ -159,7 +157,7 @@ p {
 .btn_secondary {
     display: flex;
 
-    padding: 14px 20px;
+    padding: 10px 30px;
     justify-content: center;
     align-items: center;
     gap: var(--Spacing-2-5, 10px);
@@ -196,7 +194,7 @@ p {
 
 .btn_black_with_border {
     display: flex;
-    padding: 10px 40px;
+    padding: 10px 25px;
     justify-content: center;
     align-items: center;
     gap: var(--Spacing-2-5, 10px);
@@ -221,6 +219,17 @@ p {
     background-position: center;
     background-size: 100%;
 } */
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+
+    padding: 10px;
+}
 
 .left_list {
 
@@ -436,7 +445,7 @@ a {
 
 .star_left img {
     display: flex;
-    padding: 6px;
+    padding: 4px;
     align-items: flex-start;
 
 }
@@ -455,7 +464,7 @@ a {
     text-align: center;
 
     /* text-base/font-bold */
-    font-family: Muli;
+    font-family: 'Mulish';
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -465,7 +474,7 @@ a {
 
 .hero_left_btn_group h5 {
     padding-top: 0px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 
 
@@ -501,8 +510,9 @@ a {
     padding-left: 50px;
     right: 0;
     width: 100%;
-    padding-left: 183px;
+    padding-left: 245px;
 }
+
 
 .hero_right_side {
 
@@ -636,7 +646,7 @@ a {
     text-align: center;
 
     /* text-lg/font-bold */
-    font-family: Muli;
+    font-family: 'Mulish';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -745,6 +755,18 @@ a {
 
 /*---------------------------- COMBINE SECTION START------------- */
 
+.combine_head {
+    color: var(--Text-Color-Heading, #0C121D);
+
+    /* text-5xl/font-bold */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 57.6px */
+}
+
 
 .accordion-button:not(.collapsed) {
     color: black;
@@ -761,6 +783,26 @@ a {
     /* 133.333% */
 }
 
+.accordion-button:not(.collapsed) {
+
+    /* background-color: #e7f1ff; */
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    color: #7275FF;
+}
+
+.accordion-body {
+    color: #707D8E;
+
+
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+
+    text-align: start;
+}
 
 .accordion-button:focus {
     box-shadow: unset !important;
@@ -768,8 +810,16 @@ a {
 
 
 .accordion-button::after {
-
     background-image: url(../images/plus.png);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 80px;
+    background: #FFF;
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.06);
 
 }
 
@@ -783,6 +833,7 @@ a {
 /* Icon for expanded state */
 .accordion-button.collapsed::after {
     background-image: url(../images/plus.png);
+
 }
 
 
@@ -1566,7 +1617,7 @@ background: #FFF; */
 
 .line_child li {
     padding-top: 20px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: var(--More-Color-White, #FFF);
     /* text-lg/font-normal */
     font-family: Mulish;
@@ -1575,6 +1626,27 @@ background: #FFF; */
     font-weight: 400;
     line-height: 28px;
     /* 155.556% */
+    border-bottom: 1px solid #FFF;
+}
+
+
+.line_child.icon li {
+    padding-top: 20px;
+    /* text-decoration: underline; */
+    color: var(--More-Color-White, #FFF);
+    /* text-lg/font-normal */
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    border-bottom: none;
+
+}
+
+.with_out_underline {
+    border-bottom: none !important;
 }
 
 .bottom_pera {
@@ -1654,3 +1726,47 @@ background: #FFF; */
 .carousel-control-next:hover {
     opacity: .5;
 }
+
+
+
+/*............ FOR BUTTON ANIMATION........... */
+
+.lets_btn {
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.6s;
+}
+
+.lets_btn:hover {
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+}
+
+
+.orange_btn {
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.6s;
+
+}
+
+.orange_btn:hover {
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+
+
+}
+
+
+.dark_btn {
+    box-shadow: inset 0 0 0 0 purple;
+    -webkit-transition: ease-out 0.6s;
+}
+
+.dark_btn:hover {
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+}
+
+
+
+
+/*............ FOR BUTTON ANIMATION........... */

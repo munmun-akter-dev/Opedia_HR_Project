@@ -1,3 +1,19 @@
+@media screen and (max-width:1440px) {
+
+
+  .small_left_pic {
+    right: 131px !important;
+    margin-top: -636px !important;
+  }
+
+  .small_right_pic {
+    left: 77px;
+    margin-top: -355px;
+    width: 38%;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .tools_btn {
     padding-top: 30px;
@@ -306,6 +322,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .contact_left_box h3 {
+
+    font-size: 42px;
+  }
+
   .carousel-control-prev {
 
     top: -3px;
@@ -318,8 +340,9 @@
 
   .navbar-light .navbar-nav .nav-link {
 
-    font-size: 12px;
+    font-size: 15px;
   }
+
 
   .navbar {
     padding: 0px;
@@ -523,7 +546,8 @@
   }
 
   .rush_right_content {
-    text-align: center;
+    text-align: start;
+    margin-top: 42px;
   }
 
   .tools_img_group {
