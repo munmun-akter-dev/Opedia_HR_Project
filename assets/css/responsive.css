@@ -416,13 +416,13 @@
   } */
 
   .blck_log {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .hero_left_side {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 0px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .black_head {
@@ -632,9 +632,15 @@
 }
 
 @media screen and (max-width: 425px) {
+
   /* .bottom {
     max-width: 50%;
 } */
+  .content_list img {
+    padding: var(--Spacing-5, 7px);
+    width: 45px;
+  }
+
 
   .contact_left_box h5 {
     margin-top: 0px;
@@ -1309,6 +1315,8 @@
 
   .over_all_parent img {
     padding-top: 0px;
+    width: 39px;
+    height: 39px;
   }
 
   #scrollBtn {
@@ -1317,6 +1325,14 @@
     height: 47px;
   }
 
+  .accordion-body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .combine_left_content {
+    font-size: 15px;
+  }
 
 }
 
